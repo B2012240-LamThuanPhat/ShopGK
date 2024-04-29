@@ -76,10 +76,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-/* Firefox */
+/* Firefox
 input[type=number] {
     -moz-appearance: textfield;
-}
+} */
 
 /* Custom radio buttons */
 input[type="radio"]+label {
@@ -232,7 +232,9 @@ header {
 }
 
 .header-logo-img {
-    width: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
 
 .header-middle-center {

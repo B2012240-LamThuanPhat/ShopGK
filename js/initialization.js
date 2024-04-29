@@ -572,8 +572,8 @@ function createAdminAccount() {
         accounts = [];
         accounts.push({
             fullname: "Hoàng Gia Bảo",
-            phone: "hgbaodev",
-            password: "123456",
+            phone: "khangheomap",
+            password: "mapheokhang",
             address: 'https://github.com/hgbaodev',
             email: 'musicanime2501@gmail.com',
             status: 1,
