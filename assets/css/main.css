@@ -176,6 +176,7 @@ input[type="checkbox"]:checked+label:before {
     max-width: 1130px;
     padding: 0 10px;
     margin: 0 auto;
+
 }
 
 .dnone{
@@ -196,6 +197,7 @@ header {
     height: 30px;
     width: 100%;
     display: none;
+    
 }
 
 .header-top .container {
@@ -203,6 +205,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+   
 }
 
 .header-top-list {
@@ -220,6 +223,7 @@ header {
     margin-right: 4px;
 }
 
+
 .header-middle{
     box-shadow: inset 0px -0.5px 0px #e6e6e6;
 }
@@ -229,11 +233,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #dfcfbd;
+    border-radius: 15px;
 }
 
 .header-logo-img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
     border-radius: 100%;
 }
 
@@ -441,6 +447,7 @@ header {
     background-color: var(--white);
     box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
     z-index: 4;
+    background-color: #f4eae0;
 }
 
 .header-bottom.hide{
@@ -579,8 +586,7 @@ header {
 }
 
 .home-slider img {
-    width: 100%;
-    height: auto;
+    
     object-fit: cover;
     border-radius: 5px;
 }
@@ -1713,11 +1719,15 @@ input[type=number] {
 
 .footer-top-img {
     border-right: 1px solid #e6e6e6;
+    border-radius: 10px;
     padding-right: 25px;
+    width: 10%;
+    height: 10%;
 }
 
 .footer-top-img img {
     width: 240px;
+    border-radius: 230px;
 }
 
 .footer-top-subbox {
@@ -1852,7 +1862,9 @@ input[type=number] {
 .widget-contact-item {
     margin-bottom: 12px;
 }
-
+.widget-contact-item img {
+    border-radius: 10px; /* Điều chỉnh giá trị theo ý muốn */
+}
 .widget-contact-item i {
     transition: transform 0.3s linear;
 }
@@ -2313,3 +2325,22 @@ input[type=number] {
     display: none;
 }
 
+.video-container {
+    display: flex;
+    flex-direction: row; /* Sắp xếp các phần tử theo chiều ngang */
+}
+
+.video-container .video {
+    flex: 1; /* Kích thước video sẽ co dãn để điền vào không gian còn trống */
+}
+
+.video-container .image {
+    flex: 1; /* Kích thước ảnh cũng sẽ co dãn để điền vào không gian còn trống */
+    margin-left: 10px; /* Khoảng cách giữa video và ảnh */
+}
+
+/* Đảm bảo ảnh không bị tràn ra ngoài khung */
+.video-container .image img {
+    max-width: 100%;
+    height: auto;
+}

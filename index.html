@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/home-responsive.css">
     <link rel="stylesheet" href="./assets/css/toast-message.css">
     <link rel="stylesheet" href="./assets/font/font-awesome-pro-v6-6.2.0/css/all.min.css"/>
+    <link href="/assets/img/products/bannerchinh.jpg"/>
 
 </head>
 <body>
@@ -34,7 +35,7 @@
         </div>
 
         <div class="header-middle">
-            <img src="/assets/img/products/bannerchinh.jpg" width="1300" height="100">
+            
             <div class="container">
                
                 <div class="header-middle-left">
@@ -91,13 +92,15 @@
         <div class="container">
             <ul class="menu-list">
                 <li class="menu-list-item"><a href="" class="menu-link">Trang chủ</a></li>
-                <li class="menu-list-item" onclick="showCategory('Món chay')"><a href="javascript:;" class="menu-link">Món chay</a></li>
-                <li class="menu-list-item" onclick="showCategory('Món mặn')"><a href="javascript:;" class="menu-link">Món mặn</a></li>
-                <li class="menu-list-item" onclick="showCategory('Món lẩu')"><a href="javascript:;" class="menu-link">Món lẩu</a></li>
-                <li class="menu-list-item" onclick="showCategory('Món ăn vặt')"><a href="javascript:;" class="menu-link">Món ăn vặt</a></li>
+                <li class="menu-list-item" onclick="showCategory('Tép Màu')"><a href="javascript:;" class="menu-link">Tép Màu</a></li>
+                <li class="menu-list-item" onclick="showCategory('Tép Sulaweshi')"><a href="javascript:;" class="menu-link">Tép Sulaweshi</a></li>
+                <li class="menu-list-item" onclick="showCategory('Cá nuôi với tép')"><a href="javascript:;" class="menu-link">Cá nuôi với tép</a></li>
+                <!-- <li class="menu-list-item" onclick="showCategory('Món ăn vặt')"><a href="javascript:;" class="menu-link">Món ăn vặt</a></li>
                 <li class="menu-list-item" onclick="showCategory('Món tráng miệng')"><a href="javascript:;" class="menu-link">Món tráng miệng</a></li>
                 <li class="menu-list-item" onclick="showCategory('Nước uống')"><a href="javascript:;" class="menu-link">Nước uống</a></li>
-                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="javascript:;" class="menu-link">Món khác</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="javascript:;" class="menu-link">Món khác</a></li> -->
+                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="gioithieu.html" class="menu-link">Giới Thiệu</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="chinhsach.html" class="menu-link">Chính Sách</a></li>
             </ul>
         </div>
     </nav>
@@ -107,12 +110,12 @@
                 <span>Phân loại </span>
                 <select name="" id="advanced-search-category-select" onchange="searchProducts()">
                     <option>Tất cả</option>
-                    <option>Món chay</option>
-                    <option>Món mặn</option>
-                    <option>Món lẩu</option>
-                    <option>Món ăn vặt</option>
+                    <option>Tép Màu</option>
+                    <option>Tép Sulaweshi</option>
+                    <option>Cá nuôi với tép</option>
+                    <!-- <option>Món ăn vặt</option>
                     <option>Món tráng miệng</option>
-                    <option>Nước uống</option>
+                    <option>Nước uống</option> -->
                 </select>
             </div>
             <div class="advanced-search-price">
@@ -133,13 +136,20 @@
     <main class="main-wrapper">
         <div class="container" id="trangchu">
             <div class="home-slider">
-                <img src="./assets/img/banner-1.png" alt="">
+                <img src="https://up-anh.vi-vn.vn/img/1714402294_3c1d1c777a4f5c4f0b685b2c8781ee8e.jpg" width="1150" height="320" style="border-radius: 15px;">
+                
                 <!-- <img src="./assets/img/banner-2.png" alt="">
                 <img src="./assets/img/banner-3.png" alt="">
                 <img src="./assets/img/banner-4.png" alt="">
                 <img src="./assets/img/banner-5.png" alt=""> -->
             </div>
-            <div class="home-service" id="home-service">
+            
+            <img src="file:///D:/Hinh%20anh%20web%20tom/%E1%BA%A2nh%20t%C3%A9p%20l%C3%A0m%20wed/%E1%BA%A2nh%20t%C3%A9p%20l%C3%A0m%20wed/quang-cao.gif" 
+            width="1111" 
+            height="200"             
+            style="border-radius: 15px;">
+        
+            <!-- <div class="home-service" id="home-service">
                 <div class="home-service-item">
                     <div class="home-service-item-icon">
                         <i class="fa-light fa-person-carry-box"></i>
@@ -176,9 +186,9 @@
                         <p class="home-service-item-content-desc">Nếu không hài lòng</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="home-title-block" id="home-title">
-                <h2 class="home-title">Khám phá thực đơn của chúng tôi</h2>
+                <h2 class="home-title">Các Dòng Tép Màu Đang Có Tại Shop!!</h2>
             </div>
             <div class="home-products" id="home-products">
             </div>
@@ -376,12 +386,19 @@
             </div>
         </div>
     </div>
+    <br>
+    <div class="video-container">
+        <iframe width="850" height="340" src="https://www.youtube.com/embed/2VK3TtFDIjo" frameborder="1" allowfullscreen></iframe>
+       <div class="background-image" >
+           <a href=""><img onerror="this.src='thumbs/120x100x2/assets/images/noimage.png';" src="file:///E:/Project%20Lam%20Lai/Web%202/Webbanhang/assets/img/Bannerthongtin.jpg" style="width: 708px; height: 340px;"/></a>
+       </div>
+   </div>
     <footer class="footer">
         <div class="container">
             <div class="footer-top">
                 <div class="footer-top-content">
                     <div class="footer-top-img">
-                        <img src="./assets/img/vy-food.png" alt="">
+                        <img src="./assets/img/logodacat.jpg" alt="">
                     </div>
                     <div class="footer-top-subbox">
                         <div class="footer-top-subs">
@@ -403,50 +420,50 @@
             <div class="container">
                 <div class="widget-row">
                     <div class="widget-row-col-1">
-                        <h3 class="widget-title">Về chúng tôi</h3>
+                        <h2 class="widget-title">Về chúng tôi</h2>
                         <div class="widget-row-col-content">
-                            <p>Vy Food là thương hiệu được thành lập vào năm 2022 với tiêu chí đặt chất lượng sản phẩm lên hàng đầu.</p>
+                            <p>Tép Kiểng GK là nhà cung cấp các dòng tép màu và tép Sulaweshi được thành lập vào năm 2023 với tiêu chí đặt tâm vào từng con tép.</p>
                         </div>
                         <div class="widget-social">
                             <div class="widget-social-item">
-                                <a href="">
+                                <a href="https://www.facebook.com/profile.php?id=61555712138715&mibextid=LQQJ4d">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </div>
                             <div class="widget-social-item">
                                 <a href="">
-                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-tiktok"></i>
                                 </a>
                             </div>
                             <div class="widget-social-item">
-                                <a href="">
-                                    <i class="fab fa-linkedin-in"></i>
+                                <a href="mailto:tepkienggk@gmail.com">
+                                    <i class="fab fa-google"></i>
                                 </a>
                             </div>
                             <div class="widget-social-item">
-                                <a href="">
-                                    <i class="fab fa-whatsapp"></i>
+                                <a href="https://www.youtube.com/@TepkiengGk">
+                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="widget-row-col">
-                        <h3 class="widget-title">Liên kết</h3>
-                        <ul class="widget-contact">
+                        <!-- <h3 class="widget-title">Các Dòng Sản Phẩm</h3> -->
+                        <!-- <ul class="widget-contact">
                             <li class="widget-contact-item">
-                                <a href="">
+                                <a href="gioithieu.html">
                                     <i class="fa-regular fa-arrow-right"></i>
                                     <span>Về chúng tôi</span>
                                 </a>
                             </li>
                             <li class="widget-contact-item">
-                                <a href="">
+                                <a href="index.html">
                                     <i class="fa-regular fa-arrow-right"></i>
-                                    <span>Thực đơn</span>
+                                    <span>Các Loại Tép</span>
                                 </a>
                             </li>
                             <li class="widget-contact-item">
-                                <a href="">
+                                <a href="chinhsach.html">
                                     <i class="fa-regular fa-arrow-right"></i>
                                     <span>Điều khoản</span>
                                 </a>
@@ -454,52 +471,52 @@
                             <li class="widget-contact-item">
                                 <a href="">
                                     <i class="fa-regular fa-arrow-right"></i>
-                                    <span>Liên hệ</span>
+                                    <span>Liên hệ: 0949313319</span>
                                 </a>
                             </li>
                             <li class="widget-contact-item">
-                                <a href="">
+                                <a href="tintuc.html">
                                     <i class="fa-regular fa-arrow-right"></i>
                                     <span>Tin tức</span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
-                    <div class="widget-row-col">
-                        <h3 class="widget-title">Thực đơn</h3>
-                        <ul class="widget-contact">
+                     <div class="widget-row-col">
+                         <h3 class="widget-title">Các Dòng Tép</h3>
+                         <ul class="widget-contact">
                             <li class="widget-contact-item">
                                 <a href="">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                    <span>Điểm tâm</span>
+                                    
+                                    <img src="file:///E:/Project%20Lam%20Lai/Web%202/Webbanhang/assets/img/tepmau.jpg" width="200" height="100">
                                 </a>
                             </li>
                             <li class="widget-contact-item">
                                 <a href="">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                    <span>Món chay</span>
+                                    
+                                    <img src="file:///E:/Project%20Lam%20Lai/Web%202/Webbanhang/assets/img/tepsula.jpg" width="200" height="100">
                                 </a>
                             </li>
                             <li class="widget-contact-item">
                                 <a href="">
-                                    <i class="fa-regular fa-arrow-right"></i>
-                                    <span>Món mặn</span>
+                                    <img src="file:///E:/Project%20Lam%20Lai/Web%202/Webbanhang/assets/img/canuoivoitep.jpg" width="200" height="100">
+                                    
                                 </a>
                             </li>
-                            <li class="widget-contact-item">
+                            <!-- <li class="widget-contact-item">
                                 <a href="">
                                     <i class="fa-regular fa-arrow-right"></i>
                                     <span>Nước uống</span>
                                 </a>
-                            </li>
-                            <li class="widget-contact-item">
+                            </li> -->
+                            <!-- <li class="widget-contact-item">
                                 <a href="">
                                     <i class="fa-regular fa-arrow-right"></i>
                                     <span>Tráng miệng</span>
                                 </a>
-                            </li>
-                        </ul>
-                    </div>
+                            </li> -->
+                        </ul> 
+                    </div> 
                     <div class="widget-row-col-1">
                         <h3 class="widget-title">Liên hệ</h3>
                         <div class="contact">
@@ -508,7 +525,7 @@
                                     <i class="fa-regular fa-location-dot"></i>
                                 </div>
                                 <div class="contact-content">
-                                    <span>273 An Dương Vương, Phường 3, Quận 5, TP Hồ Chí Minh</span>
+                                    <span>166 Lê Anh Xuân, Phường 2, TP. Cao Lãnh, Đồng Tháp</span>
                                 </div>
                             </div>
                             <div class="contact-item">
@@ -516,9 +533,9 @@
                                     <i class="fa-regular fa-phone"></i>
                                 </div>
                                 <div class="contact-content contact-item-phone">
-                                    <span>0123 456 789</span>
+                                    <span>0939313319 (Diễm Kiều)</span>
                                     <br>
-                                    <span>0987 654 321</span>
+                                    <span>0949313319(Khang)</span>
                                 </div>
                             </div>
                             <div class="contact-item">
@@ -526,8 +543,8 @@
                                     <i class="fa-regular fa-envelope"></i>
                                 </div>
                                 <div class="contact-content conatct-item-email">
-                                    <span>abc@domain.com</span><br />
-                                    <span>infoabc@domain.com</span>
+                                    <span>tepkienggk@gmail.com</span><br />
+                                    <span>gido</span>
                                 </div>
                             </div>
                         </div>
@@ -536,10 +553,13 @@
             </div>
         </div>
     </footer>
+    <div class="info-right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.8873800613673!2d105.64119316950428!3d10.45727621818472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a6454b19527c9%3A0x3105a22831116adb!2zMTY2IEzDqiBBbmggWHXDom4sIFBoxrDhu51uZyAyLCBUUC4gQ2FvIEzDo25oLCDEkOG7k25nIFRow6FwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1714070301626!5m2!1svi!2s" width="1180" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <div class="copyright-wrap">
         <div class="container">
             <div class="copyright-content">
-                <p>Copyright 2022 Vy Food. All Rights Reserved.</p>
+                <p>Copyright 2023 GK. Designed by TP.</p>
             </div>
         </div>
     </div>
