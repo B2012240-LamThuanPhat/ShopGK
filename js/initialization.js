@@ -572,7 +572,7 @@ function createProduct() {
           {
             "id": 62,
             "title": "Tép sula",
-            "img": "./assets/img/products/T%C3%A9p%20Snow%20Ball.jpg",
+            "img": "./assets/img/products/tep-snowball.jpg",
             "category": "Tép Sulaweshi",
             "price": 20000,
             "desc": "tép sulaweshi",
@@ -581,7 +581,7 @@ function createProduct() {
           {
             "id": 2,
             "title": "Tép Galaxy",
-            "img": "./assets/img/products/T%C3%A9p%20sula%20Galaxy.jpg",
+            "img": "./assets/img/products/tep-galaxy.jpg",
             "category": "Cá nuôi với tép",
             "price": "10000",
             "desc": "tép nuôi chung với cá",
